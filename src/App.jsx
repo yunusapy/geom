@@ -321,9 +321,8 @@ export function App() {
               </a>
             ))}
           </div>
-          <a className="button dark" href="https://sites.google.com/view/yunusp/publications" target="_blank" rel="noreferrer">View all publications <ArrowUpRight /></a>
-          <a className="button outline scholar-button" href="https://scholar.google.com/citations?hl=en&user=l3WMApQAAAAJ" target="_blank" rel="noreferrer">Latest on Google Scholar <ArrowUpRight /></a>
-        </section>
+          <a className="button dark" href="https://scholar.google.com/citations?hl=en&user=l3WMApQAAAAJ" target="_blank" rel="noreferrer">View all publications <ArrowUpRight /></a>
+          </section>
 
         <section className="section news" id="news">
           <SectionHeading eyebrow="News & blogs" title="Updates from the lab" intro="A home for conference notes, student achievements, field updates and short blog-style dispatches from GEOM Lab." />
