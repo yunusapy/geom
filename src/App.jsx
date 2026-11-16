@@ -144,14 +144,14 @@ const newsItems = [
     title: "AGU Grant 2026 - Sahil",
     date: "2026",
     text: "Sahil Kaushal received the AGU travel grant.",
-    image: asset("news-egu2026.jpg"),
+    image: asset("agug2.jpeg"),
     link: "https://www.linkedin.com/posts/kaushal1828_agu26-geoscience-research-share-7518612309515137025-Ph3Z/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9HatMBBU3AS-DWvlDEj5YVgrhfeAn_F1s",
   },
  {
     title: "AGU Grant 2026 - Achu",
     date: "2026",
     text: "Achu received the AGU travel grant.",
-    image: asset("news-egu2026.jpg"),
+    image: asset("agug1.jpeg"),
     link: "https://www.linkedin.com/posts/achu0009_agu26-landslides-geoscience-share-7517184077284909057-Porn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9HatMBBU3AS-DWvlDEj5YVgrhfeAn_F1s",
   },
   
