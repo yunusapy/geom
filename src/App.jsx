@@ -299,7 +299,7 @@ export function App() {
                 <div className="person-photo">
                   {member.image ? <img src={member.image} alt={member.name} /> : <span>{member.name.split(" ").map((part) => part[0]).join("")}</span>}
                 </div>
-                <h3>{member.name}</h3><p>{member.role}</p><small>{member.years}</small>
+                 <h3>{member.link ? <a href={member.link} target="_blank" rel="noreferrer">{member.name} <ArrowUpRight /></a> : member.name}</h3><p>{member.role}</p><small>{member.years}</small>
               </article>
             ))}
           </div>
