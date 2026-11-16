@@ -20,13 +20,13 @@ import publications from "./data/publications.json";
 const asset = (filename) => `${import.meta.env.BASE_URL}assets/${filename}`;
 
 const members = [
-  { name: "Achu AL", role: "Postdoctoral Researcher", years: "2026–Present", image: asset("achu.jpg")  },
+  { name: "Achu AL", role: "Postdoctoral Researcher", years: "2026–Present", image: asset("achu.jpeg")  },
   { name: "Sahil Kaushal", role: "PhD Scholar · PMRF", years: "2022–Present", image: asset("image1.jpg") },
   { name: "Shah Masudul Islam", role: "PhD Scholar", years: "2023–Present", image: asset("image2.jpg") },
   { name: "Nandhana S", role: "PhD Scholar · DST–INSPIRE", years: "2025–Present", image: asset("image3.jpg") },
   { name: "Shagun Sandal", role: "PhD Scholar", years: "2025–Present", image: asset("image4.jpg") },
   { name: "E. S. Faizah", role: "MS Thesis", years: "2025–2026", image: asset("image5.jpg") },
-  { name: "E. S. Faizah", role: "MS Thesis", years: "2025–2026", image: asset("saju.jpg") },
+  { name: "Saju S. Mukundan", role: "MS Thesis", years: "2025–2026", image: asset("saju.jpeg") },
 ];
 
 const externalStudents = [
