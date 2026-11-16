@@ -26,13 +26,14 @@ const members = [
   { name: "Nandhana S", role: "PhD Scholar · DST–INSPIRE", years: "2025–Present", image: asset("image3.jpg") },
   { name: "Shagun Sandal", role: "PhD Scholar", years: "2025–Present", image: asset("image4.jpg") },
   { name: "E. S. Faizah", role: "MS Thesis", years: "2025–2026", image: asset("image5.jpg") },
-  { name: "Saju S. Mukundan", role: "MS Thesis", years: "2025–2026", image: asset("saju.jpeg") },
+  { name: "Saju S. Mukundan", role: "MS Thesis", years: "2025–Present", image: asset("saju.jpeg") },
+  { name: "Anaha Joy", role: "Project Fellow", years: "2026–Present", image: asset("anaha.jpeg") },
 ];
 
 const externalStudents = [
-  "Saju",
   "Ameen",
-  "Anaha",
+  "Anaswara",
+  "Akshay",
 ];
 
 const alumni = [
