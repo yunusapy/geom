@@ -239,7 +239,24 @@ export function App() {
           </div>
         </section>
 
-        <section className="section people" id="people">
+        <section className="section pi-section" id="people">
+          <div className="pi-image"><img src={asset("yunus-ali-pulpadan.jpeg")} alt="Dr. Yunus Ali Pulpadan" /></div>
+          <div className="pi-copy">
+            <p className="eyebrow">Principal investigator</p>
+            <h2>Dr. Yunus Ali Pulpadan</h2>
+            <p className="pi-role">Assistant Professor · Department of Earth & Environmental Sciences</p>
+            <p>Dr. Yunus Ali Pulpadan leads the GEOM team at IISER Mohali. His work applies geomorphology, remote sensing, GIS and machine learning to natural hazards, especially landslides, and to river and coastal morphology across local, regional and global scales.</p>
+            <p>He earned his PhD from The University of Tokyo and is a recipient of the Japanese Government Monbukagakusho (MEXT) Scholarship.</p>
+            <div className="profile-links">
+              <a href="https://www.iisermohali.ac.in/faculty/ees/yunusp" target="_blank" rel="noreferrer">IISER profile <ArrowUpRight /></a>
+              <a href="https://sites.google.com/view/yunusp/profile" target="_blank" rel="noreferrer">Academic profile <ArrowUpRight /></a>
+              <a href="https://scholar.google.com/citations?hl=en&user=l3WMApQAAAAJ" target="_blank" rel="noreferrer">Google Scholar <ArrowUpRight /></a>
+              <a href="https://www.linkedin.com/search/results/all/?keywords=GEOM%20Lab%20IISER%20Mohali" target="_blank" rel="noreferrer"><LinkedinLogo /> LinkedIn</a>
+            </div>
+          </div>
+        </section>
+
+        <section className="section people">
           <SectionHeading eyebrow="People" title="The GEOM team" intro="A field-driven group of researchers working across scales, sensors and mountain systems." />
           <div className="people-grid">
             {members.map((member) => (
@@ -259,23 +276,6 @@ export function App() {
             <div><p className="eyebrow">Alumni</p><h3>A growing field network</h3></div>
             <button className="button outline" onClick={() => setShowAlumni(!showAlumni)} aria-expanded={showAlumni}>{showAlumni ? "Hide alumni" : "View alumni"} <ArrowRight /></button>
             {showAlumni && <div className="alumni-list">{alumni.map((person) => <p key={person}>{person}</p>)}</div>}
-          </div>
-        </section>
-
-        <section className="section pi-section">
-          <div className="pi-image"><img src={asset("yunus-ali-pulpadan.jpeg")} alt="Dr. Yunus Ali Pulpadan" /></div>
-          <div className="pi-copy">
-            <p className="eyebrow">Principal investigator</p>
-            <h2>Dr. Yunus Ali Pulpadan</h2>
-            <p className="pi-role">Assistant Professor · Department of Earth & Environmental Sciences</p>
-            <p>Dr. Yunus Ali Pulpadan leads the GEOM team at IISER Mohali. His work applies geomorphology, remote sensing, GIS and machine learning to natural hazards, especially landslides, and to river and coastal morphology across local, regional and global scales.</p>
-            <p>He earned his PhD from The University of Tokyo and is a recipient of the Japanese Government Monbukagakusho (MEXT) Scholarship.</p>
-            <div className="profile-links">
-              <a href="https://www.iisermohali.ac.in/faculty/ees/yunusp" target="_blank" rel="noreferrer">IISER profile <ArrowUpRight /></a>
-              <a href="https://sites.google.com/view/yunusp/profile" target="_blank" rel="noreferrer">Academic profile <ArrowUpRight /></a>
-              <a href="https://scholar.google.com/citations?hl=en&user=l3WMApQAAAAJ" target="_blank" rel="noreferrer">Google Scholar <ArrowUpRight /></a>
-              <a href="https://www.linkedin.com/search/results/all/?keywords=GEOM%20Lab%20IISER%20Mohali" target="_blank" rel="noreferrer"><LinkedinLogo /> LinkedIn</a>
-            </div>
           </div>
         </section>
 
