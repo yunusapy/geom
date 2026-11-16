@@ -141,14 +141,22 @@ const projects = [
 
 const newsItems = [
   {
-    title: "Best poster award at EGU 2026",
-    date: "April 2026",
-    text: "Sahil Kaushal received the best poster award for his work on Himalayan sediment.",
+    title: "AGU Grant 2026 - Sahil",
+    date: "2026",
+    text: "Sahil Kaushal received the AGU travel grant.",
     image: asset("news-egu2026.jpg"),
-    link: "https://www.linkedin.com/posts/your-post-link",
+    link: "https://www.linkedin.com/posts/kaushal1828_agu26-geoscience-research-share-7518612309515137025-Ph3Z/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9HatMBBU3AS-DWvlDEj5YVgrhfeAn_F1s",
   },
+ {
+    title: "AGU Grant 2026 - Achu",
+    date: "2026",
+    text: "Achu received the AGU travel grant.",
+    image: asset("news-egu2026.jpg"),
+    link: "https://www.linkedin.com/posts/achu0009_agu26-landslides-geoscience-share-7517184077284909057-Porn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9HatMBBU3AS-DWvlDEj5YVgrhfeAn_F1s",
+  },
+  
   {
-    title: "Field campaign in Spiti",
+    title: "Field campaign in Prashar",
     date: "June 2026",
     text: "Our team carried out GPR and UAV surveys across landslide sites.",
     link: "https://www.facebook.com/your-post-link",
