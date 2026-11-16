@@ -227,14 +227,14 @@ export function App() {
           <SectionHeading eyebrow="What we study" title="From Mountains to Rivers. From Data to Decisions." intro="From mountains to rivers, we investigate Earth's dynamic landscapes using field observations, remote sensing, geophysics and environmental analytics to build safer and more resilient communities." />
           <div className="research-grid">
             <article className="research-feature">
-              <span>01</span><h3>Landslides & natural hazards</h3>
+              <span>01</span><h3>Landslides & Cascading Chain of Geo-hazards</h3>
               <p>We study co-seismic, post-seismic and rainfall-induced landslides, from failure controls to sediment budgets and cascading risk.</p>
               <img src={asset("image22.jpg")} alt="Field survey of a landslide-affected river valley" />
             </article>
             <div className="research-stack">
-              <article><span>02</span><h3>Remote sensing & AI</h3><p>Satellite, UAV and machine-learning methods turn large datasets into actionable terrain intelligence.</p></article>
-              <article><span>03</span><h3>Rivers, coasts & sediment</h3><p>We track erosion and accretion, quantify sediment budgets and study water quality from headwaters to ocean interfaces.</p></article>
-              <article><span>04</span><h3>Early warning systems</h3><p>Near-real-time workflows combine weather models and landslide databases to strengthen mountain resilience.</p></article>
+              <article><span>02</span><h3>Geo-AI Modeling</h3><p>Satellite, UAV and machine-learning and artficial intelligence to turn large datasets into actionable terrain intelligence.</p></article>
+              <article><span>03</span><h3>Sediments: Rivers and Coasts </h3><p>We track erosion and accretion, quantify sediment budgets and study water quality from headwaters to ocean interfaces.</p></article>
+              <article><span>04</span><h3>Early Warning Systems</h3><p>Near-real-time workflows combine weather models and landslide databases to strengthen mountain resilience.</p></article>
             </div>
           </div>
         </section>
