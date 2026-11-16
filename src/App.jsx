@@ -313,7 +313,7 @@ export function App() {
         </section>
 
         <section className="section publications" id="publications">
-          <SectionHeading eyebrow="Selected publications" title="Recent work" intro="Current research spanning landslide dynamics, sediment transport, hazard assessment and Earth observation." />
+          <SectionHeading eyebrow="Publications" title="Recent work" intro="Current research spanning landslide dynamics, sediment transport, hazard assessment and Earth observation." />
           <div className="publication-list">
             {publications.map((pub) => (
               <a key={pub.title} href={pub.href || "https://sites.google.com/view/yunusp/publications"} target="_blank" rel="noreferrer">
