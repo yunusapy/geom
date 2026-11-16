@@ -136,20 +136,45 @@ const projects = [
   },
 ];
 
+// NEWS: add each new update at the TOP of this list.
+// date, image and link are optional.
+
 const newsItems = [
   {
-    title: "Conference updates",
-    text: "A space for GEOM Lab conference participation, invited talks and field-school updates.",
+    title: "Best poster award at EGU 2026",
+    date: "April 2026",
+    text: "Sahil Kaushal received the best poster award for his work on Himalayan sediment.",
+    image: asset("news-egu2026.jpg"),
+    link: "https://www.linkedin.com/posts/your-post-link",
   },
   {
-    title: "Student achievements",
-    text: "Milestones from scholars, thesis students and collaborators across field, lab and modelling work.",
-  },
-  {
-    title: "Field notes",
-    text: "Short blog-style updates from campaigns, instrument deployments and new datasets.",
+    title: "Field campaign in Spiti",
+    date: "June 2026",
+    text: "Our team carried out GPR and UAV surveys across landslide sites.",
+    link: "https://www.facebook.com/your-post-link",
   },
 ];
+
+function NewsCard({ item }) {
+  const content = (
+    <>
+      {item.image ? (
+        <div className="news-image"><img src={item.image} alt={item.title} loading="lazy" /></div>
+      ) : (
+        <Newspaper weight="duotone" />
+      )}
+      {item.date && <small className="news-date">{item.date}</small>}
+      <h3>{item.title}</h3>
+      <p>{item.text}</p>
+      {item.link && <span className="news-link">Read full story <ArrowUpRight /></span>}
+    </>
+  );
+  return item.link ? (
+    <a className="news-card is-link" href={item.link} target="_blank" rel="noreferrer">{content}</a>
+  ) : (
+    <article className="news-card">{content}</article>
+  );
+}
 
 const gallery = [
   { src: asset("image33.jpg"), alt: "Field team studying a mountain slope" },
@@ -329,13 +354,7 @@ export function App() {
         <section className="section news" id="news">
           <SectionHeading eyebrow="News & blogs" title="Updates from the lab" intro="A home for conference notes, student achievements, field updates and short blog-style dispatches from GEOM Lab." />
           <div className="news-grid">
-            {newsItems.map((item) => (
-              <article className="news-card" key={item.title}>
-                <Newspaper weight="duotone" />
-                <h3>{item.title}</h3>
-                <p>{item.text}</p>
-              </article>
-            ))}
+            {newsItems.map((item) => <NewsCard item={item} key={item.title} />)}
           </div>
         </section>
 
