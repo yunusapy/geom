@@ -20,14 +20,14 @@ import publications from "./data/publications.json";
 const asset = (filename) => `${import.meta.env.BASE_URL}assets/${filename}`;
 
 const members = [
-  { name: "Achu AL", role: "Postdoctoral Researcher", years: "2026–Present", image: asset("achu.jpeg")  },
-  { name: "Sahil Kaushal", role: "PhD Scholar · PMRF", years: "2022–Present", image: asset("image1.jpg") },
-  { name: "Shah Masudul Islam", role: "PhD Scholar", years: "2023–Present", image: asset("image2.jpg") },
-  { name: "Nandhana S", role: "PhD Scholar · DST–INSPIRE", years: "2025–Present", image: asset("image3.jpg") },
-  { name: "Shagun Sandal", role: "PhD Scholar", years: "2025–Present", image: asset("image4.jpg") },
-  { name: "E. S. Faizah", role: "MS Thesis", years: "2025–2026", image: asset("image5.jpg") },
-  { name: "Saju S. Mukundan", role: "MS Thesis", years: "2025–Present", image: asset("saju.jpeg") },
-  { name: "Anaha Joy", role: "Project Fellow", years: "2026–Present", image: asset("anaha.jpeg") },
+  { name: "Achu AL", role: "Postdoctoral Researcher", years: "2026–Present", image: asset("achu.jpeg"), link: "https://scholar.google.com/citations?user=_PcwgqYAAAAJ&hl=en" },
+  { name: "Sahil Kaushal", role: "PhD Scholar · PMRF", years: "2022–Present", image: asset("image1.jpg"),link: "https://scholar.google.com/citations?hl=en&user=ftR3vN0AAAAJ" },
+  { name: "Shah Masudul Islam", role: "PhD Scholar", years: "2023–Present", image: asset("image2.jpg"), link: "https://scholar.google.com/citations?user=_PcwgqYAAAAJ&hl=en"},
+  { name: "Nandhana S", role: "PhD Scholar · DST–INSPIRE", years: "2025–Present", image: asset("image3.jpg"), link: "linkedin.com/in/nandhana-s-0561b3229?originalSubdomain=in" },
+  { name: "Shagun Sandal", role: "PhD Scholar", years: "2025–Present", image: asset("image4.jpg"), link: "linkedin.com/in/shagun-sandal-b1bb77202?originalSubdomain=in" },
+  { name: "E. S. Faizah", role: "MS Thesis", years: "2025–2026", image: asset("image5.jpg")},
+  { name: "Saju S. Mukundan", role: "MS Thesis", years: "2025–Present", image: asset("saju.jpeg")},
+  { name: "Anaha Joy", role: "Project Fellow", years: "2026–Present", image: asset("anaha.jpeg")},
 ];
 
 const externalStudents = [
