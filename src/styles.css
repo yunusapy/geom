@@ -129,7 +129,6 @@ img { display: block; width: 100%; }
 .equipment-card { border-top: 1px solid rgba(255,255,255,.22); padding-top: 16px; }
 .equipment-image { height: 260px; background: #e8e3d5; overflow: hidden; margin-bottom: 25px; }
 .equipment-image img { height: 100%; object-fit: cover; transition: transform .45s ease; }
-.equipment-card:nth-child(n+5) .equipment-image img { object-fit: contain; padding: 25px; }
 .equipment-card:hover img { transform: scale(1.04); }
 .equipment-card span { color: #c6b784; }
 .equipment-card h3 { margin: 13px 0 10px; font: 500 21px/1.2 "Manrope"; }
