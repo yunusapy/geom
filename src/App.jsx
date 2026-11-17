@@ -22,9 +22,9 @@ const asset = (filename) => `${import.meta.env.BASE_URL}assets/${filename}`;
 const members = [
   { name: "Achu AL", role: "Postdoctoral Researcher", years: "2026–Present", image: asset("achu.jpeg"), link: "https://scholar.google.com/citations?user=_PcwgqYAAAAJ&hl=en" },
   { name: "Sahil Kaushal", role: "PhD Scholar · PMRF", years: "2022–Present", image: asset("image1.jpg"),link: "https://scholar.google.com/citations?hl=en&user=ftR3vN0AAAAJ" },
-  { name: "Shah Masudul Islam", role: "PhD Scholar", years: "2023–Present", image: asset("image2.jpg"), link: "https://scholar.google.com/citations?user=_PcwgqYAAAAJ&hl=en"},
-  { name: "Nandhana S", role: "PhD Scholar · DST–INSPIRE", years: "2025–Present", image: asset("image3.jpg"), link: "linkedin.com/in/nandhana-s-0561b3229?originalSubdomain=in" },
-  { name: "Shagun Sandal", role: "PhD Scholar", years: "2025–Present", image: asset("image4.jpg"), link: "linkedin.com/in/shagun-sandal-b1bb77202?originalSubdomain=in" },
+  { name: "Shah Masudul Islam", role: "PhD Scholar", years: "2023–Present", image: asset("image2.jpg"), link: "https://scholar.google.com/citations?user=y8VfgBkAAAAJ&hl=en"},
+  { name: "Nandhana S", role: "PhD Scholar · DST–INSPIRE", years: "2025–Present", image: asset("image3.jpg"), link: "https://linkedin.com/in/nandhana-s-0561b3229?originalSubdomain=in" },
+  { name: "Shagun Sandal", role: "PhD Scholar", years: "2025–Present", image: asset("image4.jpg"), link: "https://linkedin.com/in/shagun-sandal-b1bb77202?originalSubdomain=in" },
   { name: "E. S. Faizah", role: "MS Thesis", years: "2025–2026", image: asset("image5.jpg")},
   { name: "Saju S. Mukundan", role: "MS Thesis", years: "2025–Present", image: asset("saju.jpeg")},
   { name: "Anaha Joy", role: "Project Fellow", years: "2026–Present", image: asset("anaha.jpeg")},
@@ -140,16 +140,16 @@ const projects = [
 
 const newsItems = [
   {
-    title: "AGU Grant 2026 - Sahil",
-    date: "2026",
-    text: "Sahil Kaushal received the AGU travel grant.",
+    title: "AGU Travel Grant 2026 - Sahil",
+    date: "Sep 2026",
+    text: "Sahil Kaushal wins AGU26 Student Travel Grant.",
     image: asset("agug2.jpeg"),
     link: "https://www.linkedin.com/posts/kaushal1828_agu26-geoscience-research-share-7518612309515137025-Ph3Z/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9HatMBBU3AS-DWvlDEj5YVgrhfeAn_F1s",
   },
  {
-    title: "AGU Grant 2026 - Achu",
-    date: "2026",
-    text: "Achu received the AGU travel grant.",
+    title: "AGU Travel Grant 2026 - Achu",
+    date: "Sep 2026",
+    text: "Achu wins AGU26 Travel Grant.",
     image: asset("agug1.jpeg"),
     link: "https://www.linkedin.com/posts/achu0009_agu26-landslides-geoscience-share-7517184077284909057-Porn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9HatMBBU3AS-DWvlDEj5YVgrhfeAn_F1s",
   },
@@ -241,7 +241,7 @@ export function App() {
           <div className="hero-copy">
             <p className="eyebrow light">Geomorphology of Mountains & Valleys Lab</p>
             <h1>Decoding Earth&apos;s<br />Dynamic Landscapes.</h1>
-            <p className="hero-intro">We Integrate Geomorphology, Earth observation, AI and Environmental Analytics to Understand Landscape Processes.</p>
+            <p className="hero-intro">We integrate geomorphology, Earth observation, AI and environmental analytics to understand the landscapes processes in detail.</p>
             <div className="hero-actions">
               <a className="button primary" href="#research">Explore our research <ArrowRight weight="bold" /></a>
               <a className="text-link" href="#people">Meet the team</a>
@@ -258,15 +258,15 @@ export function App() {
         </section>
 
         <section className="section research" id="research">
-          <SectionHeading eyebrow="What we study" title="From Mountains to Rivers. From Data to Decisions." intro="From mountains to rivers, we investigate Earth's dynamic landscapes using field observations, remote sensing, geophysics and environmental analytics to build safer and more resilient communities." />
+          <SectionHeading eyebrow="What we study" title="From Mountains to Rivers. From Data to Decisions." intro="We investigate Earth’s dynamic landscapes using field observations, remote sensing, geophysics and environmental analytics to build safer, more resilient communities." />
           <div className="research-grid">
             <article className="research-feature">
-              <span>01</span><h3>Landslides & Cascading Chain of Geo-hazards</h3>
+              <span>01</span><h3>Landslides & Cascading Geo-hazards</h3>
               <p>We study co-seismic, post-seismic and rainfall-induced landslides, from failure controls to sediment budgets and cascading risk.</p>
               <img src={asset("image22.jpg")} alt="Field survey of a landslide-affected river valley" />
             </article>
             <div className="research-stack">
-              <article><span>02</span><h3>Geo-AI Modeling</h3><p>Satellite, UAV and machine-learning and artficial intelligence to turn large datasets into actionable terrain intelligence.</p></article>
+              <article><span>02</span><h3>Geo-AI Modeling</h3><p>We combine satellite and UAV data with machine learning and artificial intelligence to turn large datasets into actionable terrain intelligence.</p></article>
               <article><span>03</span><h3>Sediments: Rivers and Coasts </h3><p>We track erosion and accretion, quantify sediment budgets and study water quality from headwaters to ocean interfaces.</p></article>
               <article><span>04</span><h3>Early Warning Systems</h3><p>Near-real-time workflows combine weather models and landslide databases to strengthen mountain resilience.</p></article>
             </div>
@@ -285,7 +285,7 @@ export function App() {
               <a href="https://www.iisermohali.ac.in/faculty/ees/yunusp" target="_blank" rel="noreferrer">IISER profile <ArrowUpRight /></a>
               <a href="https://sites.google.com/view/yunusp/profile" target="_blank" rel="noreferrer">Academic profile <ArrowUpRight /></a>
               <a href="https://scholar.google.com/citations?hl=en&user=l3WMApQAAAAJ" target="_blank" rel="noreferrer">Google Scholar <ArrowUpRight /></a>
-              <a href="https://www.linkedin.com/search/results/all/?keywords=GEOM%20Lab%20IISER%20Mohali" target="_blank" rel="noreferrer"><LinkedinLogo /> LinkedIn</a>
+              <a href="https://www.linkedin.com/in/yunus-ali-pulpadan-a97661257/" target="_blank" rel="noreferrer"><LinkedinLogo /> LinkedIn</a>
             </div>
           </div>
         </section>
