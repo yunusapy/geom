@@ -57,8 +57,8 @@ const equipment = [
   { name: "Total station", image: asset("image20.jpg"), text: "Precision land surveying and validation of remote-sensing datasets." },
   { name: "GNSS", image: asset("image19.jpg"), text: "High-accuracy positioning for ground control, surveys and georeferencing." },
   { name: "UV–Vis spectrophotometer", image: asset("image24.png"), text: "Chemical analysis of water and soil samples for environmental assessments." },
-  { name: "Ground Penetrating Radar (GPR)", image: asset("image30.jpg"), text: "Subsurface imaging for shallow stratigraphy, buried structures and landslide investigations." },
-  { name: "Electrical Resistivity Tomography (ERT)", image: asset("image31.jpg"), text: "Geophysical profiling of subsurface moisture, weathering and material contrasts." },
+  { name: "Ground Penetrating Radar (GPR)", image: asset("gpr.jpeg"), text: "Subsurface imaging for shallow stratigraphy, buried structures and landslide investigations." },
+  { name: "Electrical Resistivity Tomography (ERT)", image: asset("ert.jpeg"), text: "Geophysical profiling of subsurface moisture, weathering and material contrasts." },
 ];
 
 const projects = [
@@ -242,7 +242,7 @@ export function App() {
           <div className="hero-copy">
             <p className="eyebrow light">Geomorphology of Mountains & Valleys Lab</p>
             <h1>Decoding Earth&apos;s<br />Dynamic Landscapes.</h1>
-            <p className="hero-intro">We integrate geomorphology, Earth observation, AI and environmental analytics to understand landscape change.</p>
+            <p className="hero-intro">We Integrate Geomorphology, Earth observation, AI and Environmental Analytics to Understand Landscape Processes.</p>
             <div className="hero-actions">
               <a className="button primary" href="#research">Explore our research <ArrowRight weight="bold" /></a>
               <a className="text-link" href="#people">Meet the team</a>
@@ -280,7 +280,7 @@ export function App() {
             <p className="eyebrow">Principal investigator</p>
             <h2>Dr. Yunus Ali Pulpadan</h2>
             <p className="pi-role">Assistant Professor · Department of Earth & Environmental Sciences</p>
-            <p>Dr. Yunus Ali Pulpadan leads the GEOM team at IISER Mohali. His work applies geomorphology, remote sensing, GIS and machine learning to natural hazards, especially landslides, and to river and coastal morphology across local, regional and global scales.</p>
+            <p>Dr. Yunus Ali Pulpadan leads the GEOM lab at IISER Mohali. His work applies geomorphology, remote sensing, GIS and machine learning to understand natural hazards, especially landslides across local, regional and global scales.</p>
             <p>He earned his PhD from The University of Tokyo and is a recipient of the Japanese Government Monbukagakusho (MEXT) Scholarship.</p>
             <div className="profile-links">
               <a href="https://www.iisermohali.ac.in/faculty/ees/yunusp" target="_blank" rel="noreferrer">IISER profile <ArrowUpRight /></a>
@@ -308,14 +308,14 @@ export function App() {
             <div>{externalStudents.map((student) => <span key={student}>{student}</span>)}</div>
           </div>
           <div className="alumni-panel">
-            <div><p className="eyebrow">Alumni</p><h3>A growing field network</h3></div>
+            <div><p className="eyebrow">Alumni</p><h3>The GEOM Tribe</h3></div>
             <button className="button outline" onClick={() => setShowAlumni(!showAlumni)} aria-expanded={showAlumni}>{showAlumni ? "Hide alumni" : "View alumni"} <ArrowRight /></button>
             {showAlumni && <div className="alumni-list">{alumni.map((person) => <p key={person}>{person}</p>)}</div>}
           </div>
         </section>
 
         <section className="section projects" id="projects">
-          <SectionHeading eyebrow="Projects" title="Active and recent funded work" intro="Research projects connect high-mountain hazards, hydrology, geophysics, satellite data and decision-ready terrain intelligence." />
+          <SectionHeading eyebrow="Projects" title="Funded works" intro="Research projects connect high-mountain hazards, hydrology, geophysics, satellite data and decision-ready terrain intelligence." />
           <div className="project-list">
             {projects.map((project) => (
               <article className="project-card" key={project.title}>
