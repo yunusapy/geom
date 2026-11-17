@@ -56,7 +56,6 @@ const equipment = [
   { name: "Terrestrial LiDAR", image: asset("image21.jpg"), text: "Detailed 3D point clouds of slopes, structures and geomorphic features." },
   { name: "Total station", image: asset("image20.jpg"), text: "Precision land surveying and validation of remote-sensing datasets." },
   { name: "GNSS", image: asset("image19.jpg"), text: "High-accuracy positioning for ground control, surveys and georeferencing." },
-  { name: "UV–Vis spectrophotometer", image: asset("image24.png"), text: "Chemical analysis of water and soil samples for environmental assessments." },
   { name: "Ground Penetrating Radar (GPR)", image: asset("gpr.jpeg"), text: "Subsurface imaging for shallow stratigraphy, buried structures and landslide investigations." },
   { name: "Electrical Resistivity Tomography (ERT)", image: asset("ert.jpeg"), text: "Geophysical profiling of subsurface moisture, weathering and material contrasts." },
 ];
